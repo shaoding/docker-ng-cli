@@ -9,7 +9,7 @@
 #alternative to reduce size instead of alpine, but does not
 #include build tools for native compilation of npm packages
 #we therefore add gcc
-FROM node:lts-slim
+FROM node:latest
 
 MAINTAINER trion development GmbH "info@trion.de"
 
